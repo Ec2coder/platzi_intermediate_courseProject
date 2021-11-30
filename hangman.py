@@ -3,7 +3,7 @@ from os import system
 
 def main():
     system('clear')
-    DB = ["rojo","azul","celeste"]
+    DB = ["rojo","azul","celeste","purpura"]
     word_found = []
     random_word = random.choice(DB)
     word_len = len(random_word)
